@@ -1,0 +1,22 @@
+.article {
+  background: white;
+  min-width: 600px;
+  border-radius: 20px;
+  padding: 20px 55px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+
+  &Title {
+    font-size: 40px;
+    margin-bottom: 0.3em;
+    text-align: center;
+  }
+  &Sections {
+    margin-bottom: 15px;
+  }
+
+  &Text {
+    text-align: center;
+  }
+}
