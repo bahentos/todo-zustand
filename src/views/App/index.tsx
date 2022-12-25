@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useToDoStore } from "../../data/stores/useToDoStore";
 import InputPlus from "../components/InputPlus";
 import InputTask from "../components/inputTask";
-import InputTasks from "../components/inputTasks";
 import s from "./index.module.scss";
 
 export const App: React.FC = () => {
